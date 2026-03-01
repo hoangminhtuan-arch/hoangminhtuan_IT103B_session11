@@ -152,16 +152,16 @@ function mainMenu() {
 
     while (isRunning) {
         let choice = prompt(`
-            Chọn chức năng:
-            1. Create Student
-            2. Read All Students
-            3. Filter Scholarship
-            4. Update Profile
-            5. Delete Record
-            6. Compliance Verify
-            7. Academic Stats
-            8. Data Normalization
-            9. Thoát
+        Chọn chức năng:
+        1. Thêm sinh viên
+        2. Xem danh sách sinh viên
+        3. Lọc sinh viên học bổng
+        4. Cập nhật hồ sơ
+        5. Xóa hồ sơ
+        6. Kiểm tra tuân thủ
+        7. Thống kê học tập
+        8. Chuẩn hóa dữ liệu
+        9. Thoát
         `);
 
         switch (choice) {
